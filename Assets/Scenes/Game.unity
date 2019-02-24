@@ -356,6 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65b327db0d535488fafdc152bd6c6ff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingHealth: 10
   moveSpeed: 5
 --- !u!136 &1284623122
 CapsuleCollider:
@@ -460,7 +461,7 @@ GameObject:
   - component: {fileID: 1616070440}
   - component: {fileID: 1616070439}
   - component: {fileID: 1616070438}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,6 +502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee063db17940f4487b9e285cccc40717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingHealth: 5
 --- !u!136 &1616070440
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -509,7 +511,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616070437}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
