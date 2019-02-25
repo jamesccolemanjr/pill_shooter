@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Per instructional video, the player script recieves input, and sends this input to the PlayerController script.
+//Not completely sure why this division makes sense.
+
 [RequireComponent (typeof (PlayerController))]
 [RequireComponent(typeof(GunController))]
 public class Player : LivingEntity

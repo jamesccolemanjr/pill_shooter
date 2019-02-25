@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script contains gun specific actions like bullets, shot velocity, and time between shots.
+
 public class Gun : MonoBehaviour
 {
     public Transform muzzle;

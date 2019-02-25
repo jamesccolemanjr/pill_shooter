@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Receives input instructions from the player script, and performs actions on the player.
+
 [RequireComponent (typeof (Rigidbody))]
 public class PlayerController : MonoBehaviour
 {

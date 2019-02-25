@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//This script receives input from the player script, and performs gun actions like equipping and shooting.
+
 public class GunController : MonoBehaviour
 {
     public Transform weaponHold;

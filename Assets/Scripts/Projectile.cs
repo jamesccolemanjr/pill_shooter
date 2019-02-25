@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Script controls movement and damage caused by the projectile to which it is attached,
+// while also determining what happens when the projectile collides with another object.
 public class Projectile : MonoBehaviour
 {
     public LayerMask collisionMask;
