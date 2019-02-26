@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Controls enemy wave spawning
 public class Spawner : MonoBehaviour
 {
     public Wave[] waves;
