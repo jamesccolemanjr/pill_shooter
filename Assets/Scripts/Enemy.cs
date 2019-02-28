@@ -50,8 +50,6 @@ public class Enemy : LivingEntity
             StartCoroutine(UpdatePath());
 
         }
-
-        
     }
 
     void OnTargetDeath()
