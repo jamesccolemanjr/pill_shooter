@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameUI : MonoBehaviour
 {
@@ -37,6 +38,6 @@ public class GameUI : MonoBehaviour
 
     public void StartNewGame()
     {
-        Application.LoadLevel("Game");
+        SceneManager.LoadScene("Game");
     }
 }
