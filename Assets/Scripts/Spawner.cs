@@ -71,7 +71,7 @@ public class Spawner : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Return))
             {
                 StopCoroutine("SpawnEnemy");
-                foreach(Enemy enemy in FindObjectOfType<Enemy>())
+                foreach(Enemy enemy in FindObjectsOfType<Enemy>())
                 {
                     Destroy(enemy.gameObject);
                 }
@@ -91,7 +91,7 @@ public class Spawner : MonoBehaviour
             spawnTile = map.GetTileFromPosition(playerT.position);
         }
         Material tileMat = spawnTile.GetComponent<Renderer>().material;
-        Color initialColor = tileMat.color;
+        Color initialColor = Color.white;
         Color flashColor = Color.red;
         float spawnTimer = 0f;
 
