@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 4270192969072660784}
   - component: {fileID: 7586571648860659304}
   m_Layer: 0
-  m_Name: Gun 05
+  m_Name: Gun 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -538,6 +538,8 @@ MonoBehaviour:
   recoilRotationSettleTime: 0.1
   shell: {fileID: 8900168114595700902, guid: 5ea6008f8a5424e988a62fa4300ac2c4, type: 3}
   shellEjection: {fileID: 7279681258147911337}
+  shootAudio: {fileID: 8300000, guid: cdd9887c49b734d08a4ccb06d3f50b7b, type: 3}
+  reloadAudio: {fileID: 8300000, guid: d6ccfa93bb9744810b800aebe5a133d1, type: 3}
 --- !u!114 &7586571648860659304
 MonoBehaviour:
   m_ObjectHideFlags: 0
