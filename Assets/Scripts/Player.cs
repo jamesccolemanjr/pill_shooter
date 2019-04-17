@@ -40,6 +40,8 @@ public class Player : LivingEntity
 
     void Update()
     {
+
+
         //Movement Input
         Vector3 moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         Vector3 moveVelocity = moveInput.normalized * moveSpeed;
@@ -80,6 +82,11 @@ public class Player : LivingEntity
         if(Input.GetKeyDown(KeyCode.R))
         {
             gunController.Reload();
+        }
+
+        if (transform.position.y <-10)
+        {
+            TakeDamage(health);
         }
 
     }
