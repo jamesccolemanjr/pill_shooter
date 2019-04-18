@@ -10857,21 +10857,21 @@ MonoBehaviour:
     enemyHealth: 1
     skinColor: {r: 0.3734636, g: 0.9245283, b: 0.2660199, a: 0}
   - infinite: 0
-    enemyCount: 25
+    enemyCount: 10
     timeBetweenSpawns: 0.65
     moveSpeed: 2.5
     hitsToKillPlayer: 4
     enemyHealth: 1
     skinColor: {r: 0.045701336, g: 0.54483336, b: 0.745283, a: 0}
   - infinite: 0
-    enemyCount: 50
+    enemyCount: 15
     timeBetweenSpawns: 0.6
     moveSpeed: 2.8
     hitsToKillPlayer: 3
     enemyHealth: 2
     skinColor: {r: 0.8396226, g: 0.29703632, b: 0.29703632, a: 0}
   - infinite: 0
-    enemyCount: 100
+    enemyCount: 20
     timeBetweenSpawns: 0.55
     moveSpeed: 3.2
     hitsToKillPlayer: 2
